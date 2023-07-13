@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'oldnewspapertypesregular';
+    src: url('oldnewspapertypes-webfont.woff2') format('woff2'), url('oldnewspapertypes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('gilroy-extrabold-webfont.woff2') format('woff2'), url('gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'levi_adobe_diaregular';
+    src: url('levi_adobe_dia_regular-webfont.woff2') format('woff2'), url('levi_adobe_dia_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+nice {
+    font-family: gilroyextrabold;
+    font-size: 35px;
+    color: black;
+}
+type {
+    font-family: oldnewspapertypesregular;
+    font-size: 35px;
+    color: #7f0e0e;
+}
+Dashcam {
+    font-family: levi_adobe_diaregular;
+    font-size: 53px;
+    color: #7f0e0e;
+}
+body {
+    text-align: center;
+    background-color: lightpink;
+    background-image: url(\Thubnail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
