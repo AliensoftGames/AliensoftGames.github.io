@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta name="description" content="Welcome and hello !">
     <meta name="keywords" content="aliensoft,Aliensoft,games,free,cheap,boring">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
     <meta name="google-site-verification" content="fqslIYkeTcZL2BxIDk9_P76G42XSwPE5R-ciU8I3ihQ" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,103 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N83BWXN8Q"></script>
     <script>
+        function MediaSwitch() {
+            var TBC = document.getElementById("TBC");
+            var TBC2 = document.getElementById("TBC2");
+            if (TBC.style.display === "none") {
+                TBC.style.display = "block";
+                TBC2.style.display = "none";
+            }
+            else {
+                TBC.style.display = "none";
+                TBC2.style.display = "block";
+            }
+        }
+        function MediaSwitch2() {
+            var JBG = document.getElementById("JBG");
+            var JBG2 = document.getElementById("JBG2");
+            if (JBG.style.display === "none") {
+                JBG.style.display = "block";
+                JBG2.style.display = "none";
+            }
+            else {
+                JBG.style.display = "none";
+                JBG2.style.display = "block";
+            }
+        }
+        function DisableMedia() {
+            var TBC2 = document.getElementById("TBC2");
+            var JBG2 = document.getElementById("JBG2");
+            TBC2.style.display = "none";
+            JBG2.style.display = "none";
+        }
+        function EnableIcon() {
+            var MS = document.getElementById("Icon");
+            MS.src = "Media/icon71 Hover.png"
+        }
+        function DisableIcon() {
+            var MS = document.getElementById("Icon");
+            MS.src = "icon71.png"
+        }
+        function MSEnable() {
+            var MS = document.getElementById("MSIcon");
+            MS.src = "Media/favicon-1hover.png"
+        }
+        function MSDisable() {
+            var MS = document.getElementById("MSIcon");
+            MS.src = "https://www.microsoft.com/favicon.ico"
+        }
+        function EnableIcon2() {
+            var MS = document.getElementById("Icon2");
+            MS.src = "Media/icon71 Hover.png"
+        }
+        function DisableIcon2() {
+            var MS = document.getElementById("Icon2");
+            MS.src = "icon71.png"
+        }
+        function MSEnable2() {
+            var MS = document.getElementById("MSIcon2");
+            MS.src = "Media/favicon-1hover.png"
+        }
+        function MSDisable2() {
+            var MS = document.getElementById("MSIcon2");
+            MS.src = "https://www.microsoft.com/favicon.ico"
+        }
+
+        function EnableIconJBG() {
+            var MS = document.getElementById("IconJBG");
+            MS.src = "Media/JBGHover.png"
+        }
+        function DisableIconJBG() {
+            var MS = document.getElementById("IconJBG");
+            MS.src = "Media/JBG.png"
+        }
+        function MSEnableJBG() {
+            var MS = document.getElementById("MSIconJBG");
+            MS.src = "Media/ItchIconHover.png"
+        }
+        function MSDisableJBG() {
+            var MS = document.getElementById("MSIconJBG");
+            MS.src = "Media/ItchIcon.png"
+        }
+        function EnableIcon2JBG() {
+            var MS = document.getElementById("Icon2JBG");
+            MS.src = "Media/JBGHover.png"
+        }
+        function DisableIcon2JBG() {
+            var MS = document.getElementById("Icon2JBG");
+            MS.src = "Media/JBG.png"
+        }
+        function MSEnable2JBG() {
+            var MS = document.getElementById("MSIcon2JBG");
+            MS.src = "Media/ItchIconHover.png"
+        }
+        function MSDisable2JBG() {
+            var MS = document.getElementById("MSIcon2JBG");
+            MS.src = "Media/ItchIcon.png"
+        }
+    </script>
+    <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -23,7 +120,7 @@
         gtag('config', 'G-7N83BWXN8Q');
     </script>
 </head>
-<body>
+<body onload="DisableMedia()">
     <nice>Hello and <type>welcome !</type></nice><br />
     <p style="font-size: 120px;"></p>
     <nice>
@@ -35,20 +132,53 @@
     <p style="font-size: 100px;"></p>
     <nice>Click <a href="https://www.youtube.com/@AliensoftG/" style="text-decoration: none;">here</a> to be redirected to the channel or watch the latest video.</nice><br />
     <p style="font-size: 25px;"></p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pWee-gONFy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="380" height="213" src="https://www.youtube.com/embed/pWee-gONFy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <p style="font-size: 120px;"></p>
-    <nice>Games : <type>The broken car <img src="icon71.png" width="50" height="50"/></type></nice><br />
-    <p style="font-size: 50px;"></p>
-    <type>Imagine this: your car brakes down in the middle of a forest at night.<br />You get down only to realize that there's something off about this forest.It's too late.<br />Now you have to fix the car and get out as soon as possible.BUT,here's the question,would you be able to do it?<br />Well,it depends on how good your intuition is. Should I do this or should I do that?<br /><br />Be prepared, because you're gonna find out...</type><br />
-    <p style="font-size: 50px;"></p>
-    <nice><nice style="color: white;">Presentation</nice> <type>TRAILER</type> (16:9 or 21:9 aspect ratio)</nice><br />
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pWee-gONFy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 10px;"></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/27U6zf2QEEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 10px;"></iframe>
-    <p style="font-size: 50px;"></p>
-    <nice><a href="https://www.microsoft.com/store/apps/9MTCHC3CGN0H" style="text-decoration: none;">Purchase the game(MS store)</a> or use a code from <a href="Codes.html" style="text-decoration: none;">here</a></nice><br />
-    <p style="font-size: 120px;"></p>
+    <div id="TBCbg">
+        <p style="font-size: 150px;"></p>
+        <div id="TBC2">
+            <nice>Media : <type>The broken car</type></nice><br />
+            <p style="font-size: 50px;"></p>
+            <a href="#" onclick="MediaSwitch()" title="Back"><img id="Icon" src="icon71.png" width="50" height="50" style="margin-right: 20px; margin-bottom: 20px;" onmouseover="EnableIcon()" onmouseout="DisableIcon()"/></a><a href="https://www.microsoft.com/store/apps/9MTCHC3CGN0H" style="text-decoration:none;" title="Buy the game(MS store)"><img src="https://www.microsoft.com/favicon.ico" width="50" height="50" style="margin-left: 20px; margin-bottom: 20px;" onmouseover="MSEnable()" onmouseout="MSDisable()" id="MSIcon"/></a><br />
+            <img src="Media/Scr1.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr2.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr3.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><br />
+            <img src="Media/Scr4.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr5.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr6.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><br />
+            <type style="font-size: 35px;;">Screenshots</type><br />
+        </div>
+        <div id="TBC">
+            <nice>Games : <type>The broken car</type></nice><br />
+            <p style="font-size: 50px;"></p>
+            <a href="#" onclick="MediaSwitch()" title="Media"><img id="Icon2" src="icon71.png" width="50" height="50" style="margin-right: 20px; margin-bottom: 20px;" onmouseover="EnableIcon2()" onmouseout="DisableIcon2()" /></a><a href="https://www.microsoft.com/store/apps/9MTCHC3CGN0H" style="text-decoration:none;" title="Buy the game(MS store)"><img src="https://www.microsoft.com/favicon.ico" width="50" height="50" style="margin-left: 20px; margin-bottom: 20px;" onmouseover="MSEnable2()" onmouseout="MSDisable2()" id="MSIcon2" /></a><br />
+            <type>Imagine this: your car brakes down in the middle of a forest at night.<br />You get down only to realize that there's something off about this forest.It's too late.<br />Now you have to fix the car and get out as soon as possible.BUT, the quiestion is : "would you be able to do it?"<br />Well,it depends on how good your intuition is. Should I do this or should I do that?<br /><br />Be prepared, because you're gonna find out...</type><br />
+            <p style="font-size: 50px;"></p>
+            <nice><nice style="color: white;">Presentation</nice> <type>TRAILER</type> (16:9 or 21:9 aspect ratio)</nice><br />
+            <iframe width="380" height="213" src="https://www.youtube.com/embed/pWee-gONFy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 10px; border-radius: 20px;"></iframe><iframe width="380" height="213" src="https://www.youtube.com/embed/27U6zf2QEEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 10px; border-radius: 20px;"></iframe>
+        </div>
+        <p style="font-size: 150px;"></p>
+    </div>
+    <div id="JBGbg">
+        <p style="font-size: 150px;"></p>
+        <div id="JBG2">
+            <nice>Media : <nice style="color: #e26519;">Just a ball game(JBG)</nice></nice><br />
+            <p style="font-size: 50px;"></p>
+            <a href="#" onclick="MediaSwitch2()" title="Back"><img id="IconJBG" src="Media/JBG.png" width="50" height="50" style="margin-right: 20px; margin-bottom: 20px;" onmouseover="EnableIconJBG()" onmouseout="DisableIconJBG()" /></a><a href="https://aliensoft-games.itch.io/" style="text-decoration:none;" title="Download the game(itch.io)"><img src="Media/ItchIcon.png" width="50" height="50" style="margin-left: 20px; margin-bottom: 20px;" onmouseover="MSEnableJBG()" onmouseout="MSDisableJBG()" id="MSIconJBG" /></a><br />
+            <img src="Media/Scr1.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr2.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr3.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><br />
+            <img src="Media/Scr4.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr5.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><img src="Media/Scr6.png" width="380" height="213" style="border-radius: 20px; margin: 10px; border: 5px; border-color: #7f0e0e; border-style: solid;" /><br />
+            <type style="font-size: 35px;;">Screenshots</type><br />
+        </div>
+        <div id="JBG">
+            <nice>Games : <nice style="color: #e26519;">Just a ball game(JBG)</nice></nice><br />
+            <p style="font-size: 50px;"></p>
+            <a href="#" onclick="MediaSwitch2()" title="Media"><img id="Icon2JBG" src="Media/JBG.png" width="50" height="50" style="margin-right: 20px; margin-bottom: 20px;" onmouseover="EnableIcon2JBG()" onmouseout="DisableIcon2JBG()" /></a><a href="https://aliensoft-games.itch.io/" style="text-decoration:none;" title="Download the game(itch.io)"><img src="Media/ItchIcon.png" width="50" height="50" style="margin-left: 20px; margin-bottom: 20px;" onmouseover="MSEnable2JBG()" onmouseout="MSDisable2JBG()" id="MSIcon2JBG" /></a><br />
+            <nice>In this game you need to survive as much as possible against the enemies(cubes)<br />by pushing them in lava or throwing bullets at them.</nice><br />
+            <p style="font-size: 50px;"></p>
+            <nice style="color: #e26519;">Gameplay footage</nice><br />
+            <video width="100%" height="213" style="margin: 10px; border-radius: 20px; max-width: 380px;" src="Videos/JBG gameplay.mp4" type="video/mp4" controls></video>
+        </div>
+        <p style="font-size: 150px;"></p>
+    </div>
     <nice style="color: red;">Other games</nice><br />
     <p style="font-size: 50px;"></p>
-    <nice>Check out my other game, just a ball game(JBG) on <a href="https://aliensoft-games.itch.io/" style="text-decoration: none;">itch.io</a> which is in the process of being uploaded to MS store.</nice><br />
+    <nice>Check out my other game, just a ball game(JBG) on <a onclick="MediaSwitch()" style="text-decoration: none; color: red;">itch.io</a> which is in the process of being uploaded to MS store.</nice><br />
     <p style="font-size: 150px;"></p>
     <nice style="font-size: 20px;">Copyright C Aliensoft Games.All rights reserved.</nice>
 </body>

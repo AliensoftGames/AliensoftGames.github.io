@@ -18,25 +18,47 @@
 }
 nice {
     font-family: gilroyextrabold;
-    font-size: 35px;
-    color: black;
+    font-size: 20px;
+    color: white;
 }
 type {
     font-family: oldnewspapertypesregular;
-    font-size: 35px;
+    font-size: 20px;
     color: #7f0e0e;
 }
 Dashcam {
     font-family: levi_adobe_diaregular;
-    font-size: 53px;
+    font-size: 25px;
     color: #7f0e0e;
 }
 body {
     text-align: center;
-    background-color: lightpink;
+    background-color: white;
+    min-width: 700px;
+}
+#TBCbg {
+    /* background-color: #E76161; */
     background-image: url(\Thubnail.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    border: 5px;
+    border-radius: 20px;
+    margin: 50px;
+    border-color: #7f0e0e;
+    border-style: solid;
+}
+#JBGbg {
+    background-color: #e7af61;
+    background-image: url(Imagines/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border: 5px;
+    border-radius: 20px;
+    margin: 50px;
+    border-color: #e26519;
+    border-style: solid;
 }
