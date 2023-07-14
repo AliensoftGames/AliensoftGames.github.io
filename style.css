@@ -32,6 +32,11 @@ Dashcam {
     color: #7f0e0e;
 }
 body {
+    background-image: url(Media/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     text-align: center;
     background-color: white;
     min-width: 700px;
@@ -61,4 +66,10 @@ body {
     margin: 50px;
     border-color: #e26519;
     border-style: solid;
+}
+#TBC2 {
+    display: none;
+}
+#JBG2 {
+    display: none;
 }
