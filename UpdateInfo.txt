@@ -1,3 +1,6 @@
 This update includes:
 -procedual generated maze
 -bug fixes
+-optimization improvements
+-boot time optimized
+-models remade
